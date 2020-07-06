@@ -14,7 +14,7 @@ ENV ANDROID_SDK_URL="https://dl.google.com/android/repository/sdk-tools-linux-38
     RUBYGEMS_VERSION=2.7.2 \
     FASTLANE_VERSION=2.64.0 \
     YARN_VERSION=1.3.2 \
-    NODE_VERSION=9.3.0
+    NODE_VERSION=14.5.0
 
 ENV PATH $PATH:$ANDROID_HOME/tools:$ANDROID_HOME/tools/bin:$ANDROID_HOME/platform-tools:$ANDROID_HOME/build-tools/$ANDROID_BUILD_TOOLS_VERSION
 
